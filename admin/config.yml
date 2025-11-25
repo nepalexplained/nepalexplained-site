@@ -1,18 +1,17 @@
 backend:
   name: github
-  repo: your-username/nepalexplained-site
+  repo: nepalexplained/nepalexplained
   branch: main
 
-media_folder: "uploads"
-public_folder: "/uploads"
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
   - name: "articles"
     label: "Articles"
-    folder: "content/articles"
+    folder: "_articles"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
