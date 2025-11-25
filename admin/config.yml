@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: nepalexplained/nepalexplained-site  # तपाईंको Repo name
-  branch: main                                # तपाईंको branch
+  repo: nepalexplained/nepalexplained-site
+  branch: main
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
